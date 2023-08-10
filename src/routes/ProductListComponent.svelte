@@ -16,8 +16,8 @@
     });
 </script>
 
-{#if $products.length > 0}
-    <ul>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {#if $products.length > 0}
         {#each $products as product (product.id)}
             <div class="border p-4 rounded-lg shadow-md">
                 <img src={product.thumbnail} alt={product.title} class="w-full h-auto mb-2" />
@@ -25,7 +25,7 @@
                 <p class="mt-2 text-gray-600">${product.price}</p>
             </div>
         {/each}
-    </ul>
-{:else}
-    <p>Loading products...</p>
-{/if}
+    {:else}
+        <p>Loading products...</p>
+    {/if}
+</div>

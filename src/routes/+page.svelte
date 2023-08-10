@@ -5,10 +5,8 @@
     import ProductListComponent from './ProductListComponent.svelte';
 </script>
 
-<main>
-
+<main class="">
     <HeaderComponent />
 
     <ProductListComponent />
-
 </main>
