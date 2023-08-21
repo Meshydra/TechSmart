@@ -6,6 +6,7 @@
 </script>
 
 <main class="">
+    <!--N-->
     <HeaderComponent />
     <ProductListComponent />
 </main>
