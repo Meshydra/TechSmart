@@ -6,7 +6,7 @@
 </script>
 
 <main class="">
-    <!--Needs-->
+    <!--Needs a-->
     <HeaderComponent />
     <ProductListComponent />
 </main>
