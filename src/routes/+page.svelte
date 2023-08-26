@@ -6,7 +6,7 @@
 </script>
 
 <main class="">
-    <!--Needs a-->
+    <!--Needs a filter component-->
     <HeaderComponent />
     <ProductListComponent />
 </main>
